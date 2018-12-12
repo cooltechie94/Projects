@@ -1,0 +1,130 @@
+.content-color{
+	color:rgb(0,0,0);
+}
+body{
+	background-color: rgb(255,160,122);
+	
+}
+.input-fields{
+	
+}
+.white-text{
+	color:white;
+}
+#survey_header{
+	display: block;
+	background-color: rgb(128,0,0);
+	text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding:14px;
+
+}
+#title_image{
+	margin-left:auto;
+	width:125px;
+	float:left;
+	max-width: 100%
+}
+.bold{
+	font-weight: bold;
+}
+#survey-form{
+	align-items:auto;
+	margin: 0 auto;
+	/*background-color: rgb(165,42,42); */
+}
+/* pattern="[0-9]{10}"*/
+#survey-block{
+	display:block;
+	background-color:white;
+	/* rgb(204,229,255)*/
+	align-items:auto;
+	margin: 0 auto;
+	width:75%;
+	max-width:800px;
+	padding: 10px;
+}
+#submit{
+	display:block;
+	margin-left:40px;
+}
+#Comments_container{
+	display:block;
+	padding: 10px;
+	margin-left:20px;
+	text-align: left;
+	font-weight: bold;
+}
+#comment_section{
+	display:block;
+	margin: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+#name-label{
+	display:block;
+	margin-left: 20px;
+	padding:10px;
+	font-weight: bold;
+
+}
+#email-label{
+	display:block;
+	margin-left: 20px;
+	padding:10px;
+	font-weight: bold;
+}
+#number-label{
+	display:block;
+	margin-left: 20px;
+	padding:10px;
+	padding-right:15px;
+	font-weight: bold;
+}
+#name{
+	margin-left: 25px;
+}
+#number{
+	width:150px;
+	padding-right: 10px;
+	margin-left:13px;
+}
+#email{
+	margin-left:25px;
+	width:200px;
+}
+#dropdown{
+	margin-left:20px;
+}
+
+#dropdown-label{
+	display:block;
+	margin-left: 20px;
+	padding:10px;
+	font-weight: bold;
+}
+#checkbox-group{
+	display:block;
+	margin-left: 20px;
+	padding:10px;
+}
+#radio-group{
+	display:block;
+	margin-left:20px;
+	padding:10px;
+	
+}
+#submit:hover{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+

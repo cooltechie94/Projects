@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Page</title>
+<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+</head>
+<main>
+<body>
+	<header id="survey_header">
+		<img src="https://assets.pcmag.com/media/images/410165-surveyplanet-logo.jpg?width=333&height=245" id="title_image">
+		<h1 class="white-text" id="title">Survey Form</h1>
+	</header>
+	<hr></hr>
+<form id="survey-form">
+	<div id="survey-block">
+	<p id="description" class="content-color">Let us know how we can improve freeCodeCamp</p>	
+	<label id="name-label" name="fields">Name:
+		<input type="text" id="name" placeholder="Enter Your Name" 
+	tabindex="1" required>
+	</label>
+	<label id="email-label" name="fields">Email:
+		<input type="email" id="email" placeholder="Enter Your Email"   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" tabindex="2" required>
+	</label>
+	<label id="number-label" name="fields">Number:
+		<input type="number" id="number" min="7000000000" max="9999999999" placeholder="Enter Your Number" tabindex="3" title="Please Enter your  valid Mobile Number" required>
+	</label>
+	<label id="dropdown-label">Gender:
+		<select id="dropdown" name="fields" placeholder="Select Any Option" required tabindex="4">
+			<option value="0">Select Any Option</option>
+			<option value="1">Male</option>
+			<option value="2">Female</option>
+			<option value="3">Best Of Both Worlds</option>
+		</select>
+	</label>
+	<label id="radio-group" name="exp-radio"><b>Years of Experience:</b>
+		<label class="radio1">
+		<input type="radio" id="exp-opt1" name="experience" value="0-1 years" tabindex="5">0-1 years
+		</label>
+		<label class="radio2">
+		<input type="radio" id="exp-opt2" name="experience" value="1-4 years" tabindex="6">1-4 years
+		</label>
+		<label class="radio3">
+		<input type="radio" id="exp-opt3" name="experience" value="More than 4 years" tabindex="7">More than 4 years
+		</label>
+	</label>
+	<label id="checkbox-group" name="Job"><b>Previously Worked As:</b>
+		<label class="checkbox1">
+		<input type="checkbox" id="opt1" name="job" value="Mean Stack Developer">
+		Mean Stack Developer</label>
+		<label class="checkbox2">
+		<input type="checkbox" id="opt2" name="job" value="Full Stack Developer">
+		Full Stack Developer</label>
+		<label class="checkbox3">
+		<input type="checkbox" id="opt3" name="job" value="Software Tester :)">
+		Software Tester :) </label>
+	</label>
+	<div id="Comments_container">Comments:
+		<textarea rows="10" cols="70" id="comment_section"></textarea>
+	</div>
+	<button id="submit" type="submit">SUBMIT DETAILS</button>
+	</div>
+</form>
+
+</body>
+
+
+
+
+
+</main>
+
+
+
+</html>
